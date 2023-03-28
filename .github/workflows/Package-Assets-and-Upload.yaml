@@ -1,4 +1,4 @@
-name: Package Repository Assets and Upload
+name: Package Assets and Upload
 on:
   workflow_dispatch:
 
