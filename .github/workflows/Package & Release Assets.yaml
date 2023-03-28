@@ -1,0 +1,43 @@
+name: Create Release
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Set release version
+        run: echo "RELEASE_VERSION=$(date +%s)" >> $GITHUB_ENV
+
+      - name: Create Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v1.0.${{ env.RELEASE_VERSION }}
+          release_name: Shader Replacer version 1.0.${{ env.RELEASE_VERSION }}
+          draft: false
+          prerelease: false
+
+      - name: Upload ShaderFixes folder
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./ShaderFixes
+          asset_name: ShaderFixes.zip
+          asset_content_type: application/zip
+
+      - name: Upload shader_replace.addon file
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./shader_replace.addon
+          asset_name: shader_replace.addon
+          asset_content_type: text/plain
