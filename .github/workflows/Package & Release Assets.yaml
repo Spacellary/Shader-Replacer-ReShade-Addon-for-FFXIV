@@ -23,13 +23,18 @@ jobs:
           draft: false
           prerelease: false
 
+      - name: Create zip archive of ShaderFixes folder
+        run: |
+          cd ShaderFixes
+          zip -r ../ShaderReplacer.zip *
+
       - name: Upload ShaderFixes folder
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./ShaderFixes
+          asset_path: ./ShaderReplacer.zip
           asset_name: ShaderReplacer.zip
           asset_content_type: application/zip
 
