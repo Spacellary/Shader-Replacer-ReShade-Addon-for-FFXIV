@@ -1,4 +1,4 @@
-name: Package & Release Assets
+name: Package & Release
 on:
   workflow_dispatch:
 
