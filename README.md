@@ -7,7 +7,7 @@ Created by user [4lex4nder](https://github.com/4lex4nder). All credits go to him
 * Better Colors and Contrast, with the removal of the dreaded yellow-ish tint from the game, presentation is clearer.
 * You can still use all of your other ReShade shaders and Presets, while still benefiting from these improvements.
 
-##### For more information read the description from the original here: <br> https://github.com/s-ilent/smsm-ff14.
+##### For more information read the description from the original here: https://github.com/s-ilent/smsm-ff14.
 
 
 ### Installation/Usage:
