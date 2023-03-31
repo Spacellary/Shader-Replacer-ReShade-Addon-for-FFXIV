@@ -15,7 +15,7 @@ Created by user [4lex4nder](https://github.com/4lex4nder). All credits go to him
 2. The `ShaderFixes` folder goes to your FFXIV installation inside the `game` folder, alongside the `ffxiv_dx11.exe`.
 3. `shader_replace.addon` goes into your Add-on search path directory. <br>
 You can configure that in the Add-ons tab in the in-game ReShade interface.
-4. Enable the `Shader Replace` add-on in the Addo-ns tab and restart the game.
+4. Enable the `Shader Replace` add-on in the Add-ons tab and restart the game.
 
 #### Notes:
 * Configurations aren't loaded in this version, so there's no point in changing them. At this stage, all the add-on does is load the shaders that are inside the `ShaderFixes` folder directly without customization.
