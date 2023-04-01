@@ -6,6 +6,7 @@ Shader resources by [s-ilent](https://github.com/s-ilent).
 #### Notable qualities still present in this version include:
 * Much improved native Debanding (you'll notice there's a lot less color banding in the skybox).
 * Better Colors and Contrast, with the removal of the dreaded yellow-ish tint from the game, presentation is clearer.
+* A more filmic LUT.
 * You can still use all of your other ReShade shaders and Presets, while still benefiting from these improvements.
 
 ##### For more information read the description from the original here: https://github.com/s-ilent/smsm-ff14.
