@@ -17,7 +17,7 @@ Shader resources by [s-ilent](https://github.com/s-ilent).
 #### Vanilla:
 ![01-Before](https://user-images.githubusercontent.com/39604793/229291483-454c4b43-8401-4c7d-bad4-689641b16300.png)
 
-#### Addon:
+#### Add-on:
 ![02-After](https://user-images.githubusercontent.com/39604793/229291497-d06da12d-44ac-48b0-b561-ba275412f107.png)
 
 
