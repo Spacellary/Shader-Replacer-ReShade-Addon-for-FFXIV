@@ -10,6 +10,16 @@ Shader resources by [s-ilent](https://github.com/s-ilent).
 
 ##### For more information read the description from the original here: https://github.com/s-ilent/smsm-ff14.
 
+### Basic comparison:
+*No ReShade shaders, only default and add-on.*
+#### [Click here for a side-by-side comparison.](https://imgsli.com/MTY2MTcz)
+#### Vanilla:
+![01-Before](https://user-images.githubusercontent.com/39604793/229291483-454c4b43-8401-4c7d-bad4-689641b16300.png)
+
+#### Addon:
+![02-After](https://user-images.githubusercontent.com/39604793/229291497-d06da12d-44ac-48b0-b561-ba275412f107.png)
+
+
 
 ### Installation/Usage:
 1. Download/clone the repository and extract the files.
