@@ -8,7 +8,7 @@ Shader resources by [s-ilent](https://github.com/s-ilent).
 * Better Colors and Contrast, with the removal of the dreaded yellow-ish tint from the game, presentation is clearer.
 * Fimic tonemmaping.
 
-**You can still use all of your other ReShade shaders and Presets, while benefiting from these improvements!**
+**You can still use all of your other ReShade shaders and presets, while benefiting from these improvements!**
 
 ##### For more information read the description from the original here: https://github.com/s-ilent/smsm-ff14.
 
