@@ -6,7 +6,7 @@ Shader resources by [s-ilent](https://github.com/s-ilent).
 #### Notable qualities still present in this version include:
 * Much improved native Debanding (you'll notice there's a lot less color banding in the skybox).
 * Better Colors and Contrast, with the removal of the dreaded yellow-ish tint from the game, presentation is clearer.
-* Fimic tonemmaping.
+* Filmic tonemmaping.
 
 **You can still use all of your other ReShade shaders and presets, while benefiting from these improvements!**
 
