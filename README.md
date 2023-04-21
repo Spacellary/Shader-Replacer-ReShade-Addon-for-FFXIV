@@ -32,4 +32,4 @@ You can configure that in the Add-ons tab in the in-game ReShade interface, [as 
 
 #### Notes:
 * Configurations aren't loaded in this version, so there's no point in changing them. At this stage, all the add-on does is load the shaders that are inside the `ShaderFixes` folder directly without customization.
-* Tested with ReShade 5.7.0.
+* Tested with ReShade 5.8.0.
