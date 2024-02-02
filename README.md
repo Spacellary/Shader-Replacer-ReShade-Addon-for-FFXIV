@@ -1,6 +1,6 @@
 ### Silent's Messy Shader Mod - ReShade Add-on version for FFXIV
 Created by user [4lex4nder](https://github.com/4lex4nder), all credits go to him.
-Shader resources by [s-ilent](https://github.com/s-ilent).
+Shader resources by [s-ilent](https://github.com/s-ilent/smsm-ff14).
 ###### "ReShade version of Silent's shader replacements."
 
 #### Notable qualities still present in this version include:
